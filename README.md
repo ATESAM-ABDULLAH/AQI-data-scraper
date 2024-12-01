@@ -29,12 +29,12 @@ google-chrome --version
 
 Download the corresponding version of ChromeDriver from:
 
-ChromeDriver [Downloads](https://sites.google.com/chromium.org/driver/downloads?authuser=0)
+- [ChromeDriver Downloads](https://sites.google.com/chromium.org/driver/downloads?authuser=0)
 
 Extract and move the chromedriver binary to a directory in your PATH:
 ```bash
-unzip chromedriver_linux64.zip
-sudo mv chromedriver /usr/local/bin/
+unzip chromedriver_[your os]64.zip
+sudo mv chromedriver_[your os]64.zip /usr/local/bin/
 ```
 
 ### 3. Install Poetry
@@ -49,8 +49,8 @@ poetry --version
 ### 4. Setup Instructions
 Clone the Repository
 ```
-git clone https://github.com/your-username/aqi-data-scraper.git
-cd aqi-data-scraper
+https://github.com/ATESAM-ABDULLAH/AQI-data-scraper.git
+cd AQI-data-scraper
 ```
 
 Install Dependencies Use Poetry to install the required dependencies:
@@ -64,6 +64,9 @@ poetry shell
 ```
 
 ## Usage
+> [!NOTE]  
+> Do update `Service` path in both files to match the complete path of `chromedriver`
+
 ### 1. Scraping AQI Data
 Run the script to scrape AQI data for all stations:
 
