@@ -29,7 +29,7 @@ google-chrome --version
 
 Download the corresponding version of ChromeDriver from:
 
-ChromeDriver [Downloads](https://sites.google.com/chromium.org/driver/downloads?authuser=0)
+- [ChromeDriver Downloads](https://sites.google.com/chromium.org/driver/downloads?authuser=0)
 
 Extract and move the chromedriver binary to a directory in your PATH:
 ```bash
