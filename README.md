@@ -33,8 +33,8 @@ Download the corresponding version of ChromeDriver from:
 
 Extract and move the chromedriver binary to a directory in your PATH:
 ```bash
-unzip chromedriver_linux64.zip
-sudo mv chromedriver /usr/local/bin/
+unzip chromedriver_[your os]64.zip
+sudo mv chromedriver_[your os]64.zip /usr/local/bin/
 ```
 
 ### 3. Install Poetry
