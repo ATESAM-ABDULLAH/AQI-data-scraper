@@ -49,8 +49,8 @@ poetry --version
 ### 4. Setup Instructions
 Clone the Repository
 ```
-git clone https://github.com/your-username/aqi-data-scraper.git
-cd aqi-data-scraper
+https://github.com/ATESAM-ABDULLAH/AQI-data-scraper.git
+cd AQI-data-scraper
 ```
 
 Install Dependencies Use Poetry to install the required dependencies:
@@ -64,6 +64,9 @@ poetry shell
 ```
 
 ## Usage
+> [!NOTE]  
+> Do update `Service` path in both files to match the complete path of `chromedriver`
+
 ### 1. Scraping AQI Data
 Run the script to scrape AQI data for all stations:
 
