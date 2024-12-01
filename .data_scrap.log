@@ -1,21 +1,237 @@
-2024-12-01 05:46:51,511 - Starting data download for station: Civil Lines
-2024-12-01 05:47:27,321 - Data for Civil Lines downloaded successfully.
-2024-12-01 05:47:27,321 - Starting data download for station: Mundka, Delhi
-2024-12-01 05:47:57,281 - Data for Mundka, Delhi downloaded successfully.
-2024-12-01 05:47:57,281 - Starting data download for station: R.K. Puram, Delhi
-2024-12-01 05:48:27,067 - Data for R.K. Puram, Delhi downloaded successfully.
-2024-12-01 05:48:27,067 - Starting data download for station: Anand Vihar, Delhi
-2024-12-01 05:48:57,138 - Data for Anand Vihar, Delhi downloaded successfully.
-2024-12-01 05:48:57,138 - Starting data download for station: PGDAV College, Sriniwaspuri, Delhi
-2024-12-01 05:49:26,690 - Data for PGDAV College, Sriniwaspuri, Delhi downloaded successfully.
-2024-12-01 05:49:26,690 - Starting data download for station: Shaheed Sukhdev College of Business Studies, Rohini, Delhi
-2024-12-01 05:49:56,431 - Data for Shaheed Sukhdev College of Business Studies, Rohini, Delhi downloaded successfully.
-2024-12-01 05:49:56,431 - Starting data download for station: New Delhi US Embassy
-2024-12-01 05:50:26,123 - Data for New Delhi US Embassy downloaded successfully.
-2024-12-01 05:50:26,123 - Starting data download for station: Delhi Institute of Tool Engineering, Wazirpur, Delhi
-2024-12-01 05:50:55,806 - Data for Delhi Institute of Tool Engineering, Wazirpur, Delhi downloaded successfully.
-2024-12-01 05:50:55,806 - Starting data download for station: Mandir Marg, Delhi
-2024-12-01 05:51:25,585 - Data for Mandir Marg, Delhi downloaded successfully.
-2024-12-01 05:51:25,585 - Starting data download for station: Dr. Karni Singh Shooting Range, Delhi
-2024-12-01 05:51:55,243 - Data for Dr. Karni Singh Shooting Range, Delhi downloaded successfully.
-2024-12-01 05:51:55,374 - Data download process completed.
+2024-12-01 13:39:47,903 - Starting data download for station: Mulund West, Mumbai
+2024-12-01 13:40:05,424 - Failed to download data for station Mulund West, Mumbai: Message: no such element: Unable to locate element: {"method":"css selector","selector":".result"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5ae20cefb31a <unknown>
+#1 0x5ae20ca116e0 <unknown>
+#2 0x5ae20ca603e6 <unknown>
+#3 0x5ae20ca60681 <unknown>
+#4 0x5ae20ca54b26 <unknown>
+#5 0x5ae20ca8448d <unknown>
+#6 0x5ae20ca54a18 <unknown>
+#7 0x5ae20ca8462e <unknown>
+#8 0x5ae20caa2ed7 <unknown>
+#9 0x5ae20ca84203 <unknown>
+#10 0x5ae20ca52cc0 <unknown>
+#11 0x5ae20ca53c9e <unknown>
+#12 0x5ae20cec8d0b <unknown>
+#13 0x5ae20ceccc92 <unknown>
+#14 0x5ae20ceb5b3c <unknown>
+#15 0x5ae20cecd807 <unknown>
+#16 0x5ae20ce9b0df <unknown>
+#17 0x5ae20ceea578 <unknown>
+#18 0x5ae20ceea740 <unknown>
+#19 0x5ae20cefa196 <unknown>
+#20 0x7874fec94ac3 <unknown>
+
+2024-12-01 13:40:05,424 - Retrying download for station Mulund West, Mumbai with extended wait time.
+2024-12-01 13:40:11,449 - Failed to download data for station Mulund West, Mumbai: Message: no such element: Unable to locate element: {"method":"css selector","selector":".result"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5ae20cefb31a <unknown>
+#1 0x5ae20ca116e0 <unknown>
+#2 0x5ae20ca603e6 <unknown>
+#3 0x5ae20ca60681 <unknown>
+#4 0x5ae20ca54b26 <unknown>
+#5 0x5ae20ca8448d <unknown>
+#6 0x5ae20ca54a18 <unknown>
+#7 0x5ae20ca8462e <unknown>
+#8 0x5ae20caa2ed7 <unknown>
+#9 0x5ae20ca84203 <unknown>
+#10 0x5ae20ca52cc0 <unknown>
+#11 0x5ae20ca53c9e <unknown>
+#12 0x5ae20cec8d0b <unknown>
+#13 0x5ae20ceccc92 <unknown>
+#14 0x5ae20ceb5b3c <unknown>
+#15 0x5ae20cecd807 <unknown>
+#16 0x5ae20ce9b0df <unknown>
+#17 0x5ae20ceea578 <unknown>
+#18 0x5ae20ceea740 <unknown>
+#19 0x5ae20cefa196 <unknown>
+#20 0x7874fec94ac3 <unknown>
+
+2024-12-01 13:40:11,449 - Final failure for station Mulund West, Mumbai: Message: no such element: Unable to locate element: {"method":"css selector","selector":".result"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5ae20cefb31a <unknown>
+#1 0x5ae20ca116e0 <unknown>
+#2 0x5ae20ca603e6 <unknown>
+#3 0x5ae20ca60681 <unknown>
+#4 0x5ae20ca54b26 <unknown>
+#5 0x5ae20ca8448d <unknown>
+#6 0x5ae20ca54a18 <unknown>
+#7 0x5ae20ca8462e <unknown>
+#8 0x5ae20caa2ed7 <unknown>
+#9 0x5ae20ca84203 <unknown>
+#10 0x5ae20ca52cc0 <unknown>
+#11 0x5ae20ca53c9e <unknown>
+#12 0x5ae20cec8d0b <unknown>
+#13 0x5ae20ceccc92 <unknown>
+#14 0x5ae20ceb5b3c <unknown>
+#15 0x5ae20cecd807 <unknown>
+#16 0x5ae20ce9b0df <unknown>
+#17 0x5ae20ceea578 <unknown>
+#18 0x5ae20ceea740 <unknown>
+#19 0x5ae20cefa196 <unknown>
+#20 0x7874fec94ac3 <unknown>
+
+2024-12-01 13:40:11,450 - Starting data download for station: Pan Bazaar, Guwahati
+2024-12-01 13:40:25,796 - Failed to download data for station Pan Bazaar, Guwahati: Message: element click intercepted: Element <div class="histui ui basic primary button">...</div> is not clickable at point (622, 517). Other element would receive the click: <span class="menubar-text-second">...</span>
+  (Session info: chrome=131.0.6778.85)
+Stacktrace:
+#0 0x5ae20cefb31a <unknown>
+#1 0x5ae20ca116e0 <unknown>
+#2 0x5ae20ca670f6 <unknown>
+#3 0x5ae20ca6505d <unknown>
+#4 0x5ae20ca62775 <unknown>
+#5 0x5ae20ca6192f <unknown>
+#6 0x5ae20ca5529a <unknown>
+#7 0x5ae20ca84462 <unknown>
+#8 0x5ae20ca54a18 <unknown>
+#9 0x5ae20ca8462e <unknown>
+#10 0x5ae20caa2ed7 <unknown>
+#11 0x5ae20ca84203 <unknown>
+#12 0x5ae20ca52cc0 <unknown>
+#13 0x5ae20ca53c9e <unknown>
+#14 0x5ae20cec8d0b <unknown>
+#15 0x5ae20ceccc92 <unknown>
+#16 0x5ae20ceb5b3c <unknown>
+#17 0x5ae20cecd807 <unknown>
+#18 0x5ae20ce9b0df <unknown>
+#19 0x5ae20ceea578 <unknown>
+#20 0x5ae20ceea740 <unknown>
+#21 0x5ae20cefa196 <unknown>
+#22 0x7874fec94ac3 <unknown>
+
+2024-12-01 13:40:25,797 - Retrying download for station Pan Bazaar, Guwahati with extended wait time.
+2024-12-01 13:41:02,551 - Data for Pan Bazaar, Guwahati downloaded successfully on retry.
+2024-12-01 13:41:02,551 - Starting data download for station: SVPI Airport Hansol, Ahmedabad
+2024-12-01 13:41:40,406 - Data for SVPI Airport Hansol, Ahmedabad downloaded successfully.
+2024-12-01 13:41:40,406 - Starting data download for station: Sikulpuikawn, Aizawl
+2024-12-01 13:42:17,184 - Data for Sikulpuikawn, Aizawl downloaded successfully.
+2024-12-01 13:42:17,184 - Starting data download for station: Doon University, Dehradun
+2024-12-01 13:42:54,188 - Data for Doon University, Dehradun downloaded successfully.
+2024-12-01 13:42:54,188 - Starting data download for station: Muradpur, Patna
+2024-12-01 13:43:31,199 - Data for Muradpur, Patna downloaded successfully.
+2024-12-01 13:43:31,199 - Starting data download for station: Shastri Nagar, Jaipur
+2024-12-01 13:43:54,555 - Failed to download data for station Shastri Nagar, Jaipur: Message: element click intercepted: Element <div class="histui ui large primary button">...</div> is not clickable at point (1010, 879). Other element would receive the click: <span class="menubar-text-second">...</span>
+  (Session info: chrome=131.0.6778.85)
+Stacktrace:
+#0 0x5ae20cefb31a <unknown>
+#1 0x5ae20ca116e0 <unknown>
+#2 0x5ae20ca670f6 <unknown>
+#3 0x5ae20ca6505d <unknown>
+#4 0x5ae20ca62775 <unknown>
+#5 0x5ae20ca6192f <unknown>
+#6 0x5ae20ca5529a <unknown>
+#7 0x5ae20ca84462 <unknown>
+#8 0x5ae20ca54a18 <unknown>
+#9 0x5ae20ca8462e <unknown>
+#10 0x5ae20caa2ed7 <unknown>
+#11 0x5ae20ca84203 <unknown>
+#12 0x5ae20ca52cc0 <unknown>
+#13 0x5ae20ca53c9e <unknown>
+#14 0x5ae20cec8d0b <unknown>
+#15 0x5ae20ceccc92 <unknown>
+#16 0x5ae20ceb5b3c <unknown>
+#17 0x5ae20cecd807 <unknown>
+#18 0x5ae20ce9b0df <unknown>
+#19 0x5ae20ceea578 <unknown>
+#20 0x5ae20ceea740 <unknown>
+#21 0x5ae20cefa196 <unknown>
+#22 0x7874fec94ac3 <unknown>
+
+2024-12-01 13:43:54,555 - Retrying download for station Shastri Nagar, Jaipur with extended wait time.
+2024-12-01 13:44:31,643 - Data for Shastri Nagar, Jaipur downloaded successfully on retry.
+2024-12-01 13:44:31,643 - Starting data download for station: Alipur, Delhi
+2024-12-01 13:45:09,195 - Data for Alipur, Delhi downloaded successfully.
+2024-12-01 13:45:09,195 - Starting data download for station: Rabindra Bharati University, Kolkata
+2024-12-01 13:45:46,293 - Data for Rabindra Bharati University, Kolkata downloaded successfully.
+2024-12-01 13:45:46,293 - Starting data download for station: Gomti Nagar, Lucknow
+2024-12-01 13:46:23,047 - Data for Gomti Nagar, Lucknow downloaded successfully.
+2024-12-01 13:46:23,047 - Starting data download for station: DITE Okhla, Delhi
+2024-12-01 13:46:59,943 - Data for DITE Okhla, Delhi downloaded successfully.
+2024-12-01 13:46:59,943 - Starting data download for station: Manali, Chennai
+2024-12-01 13:47:37,177 - Data for Manali, Chennai downloaded successfully.
+2024-12-01 13:47:37,177 - Starting data download for station: Manoharpur, Agra
+2024-12-01 13:47:43,369 - Failed to download data for station Manoharpur, Agra: Message: no such element: Unable to locate element: {"method":"css selector","selector":".result"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5ae20cefb31a <unknown>
+#1 0x5ae20ca116e0 <unknown>
+#2 0x5ae20ca603e6 <unknown>
+#3 0x5ae20ca60681 <unknown>
+#4 0x5ae20ca54b26 <unknown>
+#5 0x5ae20ca8448d <unknown>
+#6 0x5ae20ca54a18 <unknown>
+#7 0x5ae20ca8462e <unknown>
+#8 0x5ae20caa2ed7 <unknown>
+#9 0x5ae20ca84203 <unknown>
+#10 0x5ae20ca52cc0 <unknown>
+#11 0x5ae20ca53c9e <unknown>
+#12 0x5ae20cec8d0b <unknown>
+#13 0x5ae20ceccc92 <unknown>
+#14 0x5ae20ceb5b3c <unknown>
+#15 0x5ae20cecd807 <unknown>
+#16 0x5ae20ce9b0df <unknown>
+#17 0x5ae20ceea578 <unknown>
+#18 0x5ae20ceea740 <unknown>
+#19 0x5ae20cefa196 <unknown>
+#20 0x7874fec94ac3 <unknown>
+
+2024-12-01 13:47:43,369 - Retrying download for station Manoharpur, Agra with extended wait time.
+2024-12-01 13:47:49,432 - Failed to download data for station Manoharpur, Agra: Message: no such element: Unable to locate element: {"method":"css selector","selector":".result"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5ae20cefb31a <unknown>
+#1 0x5ae20ca116e0 <unknown>
+#2 0x5ae20ca603e6 <unknown>
+#3 0x5ae20ca60681 <unknown>
+#4 0x5ae20ca54b26 <unknown>
+#5 0x5ae20ca8448d <unknown>
+#6 0x5ae20ca54a18 <unknown>
+#7 0x5ae20ca8462e <unknown>
+#8 0x5ae20caa2ed7 <unknown>
+#9 0x5ae20ca84203 <unknown>
+#10 0x5ae20ca52cc0 <unknown>
+#11 0x5ae20ca53c9e <unknown>
+#12 0x5ae20cec8d0b <unknown>
+#13 0x5ae20ceccc92 <unknown>
+#14 0x5ae20ceb5b3c <unknown>
+#15 0x5ae20cecd807 <unknown>
+#16 0x5ae20ce9b0df <unknown>
+#17 0x5ae20ceea578 <unknown>
+#18 0x5ae20ceea740 <unknown>
+#19 0x5ae20cefa196 <unknown>
+#20 0x7874fec94ac3 <unknown>
+
+2024-12-01 13:47:49,433 - Final failure for station Manoharpur, Agra: Message: no such element: Unable to locate element: {"method":"css selector","selector":".result"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5ae20cefb31a <unknown>
+#1 0x5ae20ca116e0 <unknown>
+#2 0x5ae20ca603e6 <unknown>
+#3 0x5ae20ca60681 <unknown>
+#4 0x5ae20ca54b26 <unknown>
+#5 0x5ae20ca8448d <unknown>
+#6 0x5ae20ca54a18 <unknown>
+#7 0x5ae20ca8462e <unknown>
+#8 0x5ae20caa2ed7 <unknown>
+#9 0x5ae20ca84203 <unknown>
+#10 0x5ae20ca52cc0 <unknown>
+#11 0x5ae20ca53c9e <unknown>
+#12 0x5ae20cec8d0b <unknown>
+#13 0x5ae20ceccc92 <unknown>
+#14 0x5ae20ceb5b3c <unknown>
+#15 0x5ae20cecd807 <unknown>
+#16 0x5ae20ce9b0df <unknown>
+#17 0x5ae20ceea578 <unknown>
+#18 0x5ae20ceea740 <unknown>
+#19 0x5ae20cefa196 <unknown>
+#20 0x7874fec94ac3 <unknown>
+
+2024-12-01 13:47:49,433 - Starting data download for station: Lumpyngngad, Shillong
+2024-12-01 13:48:26,363 - Data for Lumpyngngad, Shillong downloaded successfully.
+2024-12-01 13:48:26,363 - Starting data download for station: Delhi Institute of Tool Engineering, Wazirpur, Delhi
+2024-12-01 13:49:03,515 - Data for Delhi Institute of Tool Engineering, Wazirpur, Delhi downloaded successfully.
+2024-12-01 13:49:03,515 - Starting data download for station: New Delhi US Embassy

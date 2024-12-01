@@ -3,6 +3,7 @@ import shutil
 import logging
 import requests
 import re
+import random
 from time import sleep
 from bs4 import BeautifulSoup
 
@@ -23,7 +24,7 @@ INDIA_STATIONS_URL = "https://aqicn.org/map/india/"
 DOWNLOAD_FOLDER = "tmp_downloads"
 DATA_FOLDER = "data/india-aqi"
 CHROMEDRIVER_PATH = r"/home/atesam/Documents/Projects/AQI-data-scraper/chromedriver-linux64/chromedriver"
-num_stations = 10
+num_stations = 20
 
 
 # Ensure download and data directories exist
@@ -41,7 +42,7 @@ stations_list = [
     re.sub(r"^\d+\s+", "", station.text.split(" (")[0])
     for station in soup.find(id="map-station-list").find_all("a")
 ]
-stations_list = stations_list[:num_stations]
+stations_list = random.sample(stations_list, num_stations)
 
 # ChromeDriver service setup
 service = Service(executable_path=CHROMEDRIVER_PATH)
@@ -68,7 +69,7 @@ options.add_experimental_option("prefs", prefs)
 driver = webdriver.Chrome(service=service, options=options)
 
 
-def download_station_data(driver: webdriver, station: str, sleep_time: int = 4):
+def download_station_data(driver: webdriver, station: str, sleep_time: int = 5):
     """
     Downloads AQI data for a given station.
 
