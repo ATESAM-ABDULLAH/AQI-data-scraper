@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "custom-aqi-data-scraper"
+version = "0.1.0"
+description = "A Python utility for extracting historical Air Quality Index (AQI) from 'https://aqicn.org/'"
+authors = ["Atesam Abdullah <u2021114@giki.edu.pk>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+selenium = "*"
+requests = "*"
+beautifulsoup4 = "*"
+geckodriver-autoinstaller = "*"
+python-dotenv = "*"
+pandas = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+flake8 = "*"
+black = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+package-mode = false
